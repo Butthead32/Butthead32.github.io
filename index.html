@@ -2,14 +2,64 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>S12Q</title>
     <script src="script.js" defer></script>
+    <style>
+        .listMain {
+            margin-bottom: 13px;
+        }
+
+        .listSecond {
+            margin-left: 5px;
+            margin-top: -8px;
+        }
+
+        .imgCenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>button</h1>
-    <button onclick="showMessage()">click</button>
-    <p id="output"></p>
+<body background="images/background.jpg">
+
+    <table bgcolor="#FFFFFF" width="980" border="1" cellpadding="0" cellspacing="0" align="center">
+        <tbody>
+            <tr>
+                <td colspan="2" width="980" height="130" align="center">
+                    <h1>Заголовок главный</h1>
+                    <p align="left"> На данном сайте вы можете эммм да всё вы можете не ограничивайте себя. </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="27%" valign="top">
+                    <p><strong>Карта сайта</strong>
+                    <p>
+                    <p class="listMain"> <a href="index#fir">прикол</p>
+                    <p class="listSecond"> <a href="index.html">• мужик и шляпа</p>
+                    <p class="listSecond"> <a href="index.html">• медведь и машина</p>
+                    <p class="listMain"> <a href="index.html#sec">не смешное</p>
+                    <p class="listSecond"> <a href="index.html">• зуммерские приколы</p>
+                    <p class="listSecond"> <a href="index.html">• ещё чето</p>
+                </td>
+
+                <td valign="top">
+                    <noindex>
+                        <a name="fir"></a>
+                        <h1 align="center">прикол</h1>
+                        <p class="textMain"><strong>короче прикол</strong> вот он мне а я ему БЛИН ХАХАХАХ НЕ МОГУ НУ
+                            ну короче я АААААА ХХАХАХХАХА ой не всё</p>
+                        <h1>button</h1>
+                        <button onclick="showMessage()">click</button>
+                        <p id="output"></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
